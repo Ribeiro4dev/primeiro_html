@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/index.css">
-    <title>Home - EuroTour</title>
+    <link rel="stylesheet" href="style.css">
+    <title>EuroTour - Contato</title>
 </head>
 <body>
     <header>
@@ -22,15 +22,31 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Bem vindo(a) a EuroTour!</h1>
-        <section>
-            <h2>Sobre nós</h2>
-            <p>A EuroTour é uma agência de viagem que ajuda você a fazer a Trip Européia! bora nessa aventura?</p>
-            <p>Não quer ir pra Europa ainda? temos opções no Brasil também!</p>
-            <img src="img/eurotrip.jpg" alt="imagem sobre eurotrip">
-        </section>
-    </main>
+    <h1>Deixe sua mensagem:</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="inome">Nome:</label>
+            <input placeholder="Digite seu nome:" type="text" name="nome" id="inome" required>
+        </div>
+        <div>
+            <label for="iemail">Email:</label>
+            <input placeholder="Digite seu email:" type="email" name="email" id="iemail" required>
+        </div>
+        <div>
+            <label for="itel">Telefone:</label>
+            <input type="tel" id="itel" name="telefone" pattern="[0-9]{10}" placeholder="Digite o telefone:" required>
+        </div>
+        <div>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea placeholder="Digite sua mensagem aqui" name="imsg" id="imsg" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    
+    </form>
+</body>
 
 <footer>
     <p>Powered by: Bruno G. Ribeiro<a href=""></a> </p>
@@ -43,6 +59,4 @@
     <img src="img/euro_tour_logo_400.jpg" alt="logo da eurotour colorido no footer">
 
 </footer>
-
-</body>
 </html>
