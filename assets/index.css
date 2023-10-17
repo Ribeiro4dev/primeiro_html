@@ -5,7 +5,16 @@ nav {
     background-color: black;
     color: white;
     height: 6rem;
-    padding: 0 2.4rem;
+    padding: 0 2.4rem;    
+}
+
+iframe{
+    display: flex;
+    margin: 40px;
+    margin-left: 250px;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 ul {
@@ -31,3 +40,36 @@ li a {
 li a:hover {
     color: rgb(0, 221, 255); /* Muda a cor ao passar o mouse por cima */
 }
+
+main {
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 6rem;
+    padding: 0 2.4rem;
+}
+
+.sociais_rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    max-width: 60px;
+    margin-left: 30px;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
