@@ -62,3 +62,39 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
+.Nacionalidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    height: max-content;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input[type="submit"] {
+    margin-right: 20px; /* Adicione margem à direita do botão Enviar */
+}
+
+.buttons input[type="reset"] {
+    margin-left: 20px; /* Adicione margem à esquerda do botão Limpar */
+}
+
+.Transporte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

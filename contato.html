@@ -37,13 +37,34 @@
         </div>
         <div>
             <label for="itel">Telefone:</label>
-            <input type="tel" id="itel" name="telefone" pattern="[0-9]{10}" placeholder="Digite o telefone:" required>
+            <input type="tel" id="itel" name="telefone" placeholder="Digite o telefone:" required>
         </div>
         <div>
             <label for="imsg">Mensagem:</label><br>
             <textarea placeholder="Digite sua mensagem aqui" name="imsg" id="imsg" rows="10"></textarea>
+        </div>   
+    <section>
+        <div class="Nacionalidade">
+            <p>Nacionalidade</p>
+            <input type="radio" name="Nacionalidade" id="Brasil" value="Brasil"> 
+            <label for="Brasil">Brasileiro(a)</label>
+            <input type="radio" name="Nacionalidade" id="Outro" value="Outro"> 
+            <label for="Outro">Estrangeiro(a)</label>
         </div>
-        <div>
+    </section>
+    <section>
+        <div class="Transporte">
+            <p>Meio de transporte</p><br>
+            <input type="checkbox" name="transporte" id="A pé"> 
+            <label for="transporte">A pé</label>
+            <input type="checkbox" name="transporte" id="ônibus"> 
+            <label for="transporte">Ônibus</label>
+            <input type="checkbox" name="transporte" id="Carro"> 
+            <label for="Bicicleta">Bicicleta</label>  
+        </div>
+    </section>
+
+        <div class="buttons">
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </div>
